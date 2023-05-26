@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'docker'}
+  agent {label 'swifty'}
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
